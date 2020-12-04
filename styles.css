@@ -12,10 +12,7 @@ body{
   padding:0;
   margin:0;
 }
-#tavtarto{
-  padding-top: 3em;
-}
-/*section{
+section{
   margin:0 10%;
 }
 a,h2,#hamburger{
@@ -23,19 +20,19 @@ a,h2,#hamburger{
   text-decoration:none;
 }
 #nav{ /*header amiben a navigáció van*/
-/*  display:grid;
+  display:grid;
   grid-template:1fr/10% 21em 1fr 10%;
   overflow:hidden;
   background-color:#333;
   position:fixed;
   top:0;
   width:100%;
-  height:3em;
+  height:3em; /*Nagyon fontos, mert különben magasabb lesz, mint kéne!!!*/
 }
 nav a{
   display:block;
   /*margin:auto;*/
-  /*padding:auto;
+  padding:auto;
   line-height:3em;
   text-align:center;
   font-size:1em;
@@ -50,8 +47,8 @@ nav{
   grid-area:1/3/2/4;
   grid-template:1fr/repeat(4 fr);
   /*background-color:yellow;*/
-/*}
-/*#hamburger{
+}
+#hamburger{
   padding:auto;
   line-height:3em;
   text-align: center;
@@ -77,9 +74,9 @@ h1{
   animation:logo 16s ease-in-out 10s infinite alternate;
   grid-area:1/2/2/3;
   /*margin:0.225em;*/
-  /*width:auto;
+  width:auto;
   /*height:2.575em;*/
-  /*height:3.025em;
+  height:3.025em;
   position:relative;
 }
 @keyframes logo{
@@ -100,13 +97,13 @@ article{
   border-top: #f09 2px solid;
   border-radius: 0 1em;
   /*padding:1em;*/
-/*}
+}
 aside{
   /*display:inline;
   /*width:30%;
   padding-left:15px;
   margin-left:15px;*/
-  /*font-style:italic;
+  font-style:italic;
   font-variant:small-caps;
   text-align:right;
   background-color:lightgray;
@@ -114,12 +111,11 @@ aside{
   border-radius:0 1em 0 1em;
   padding:0.7em 0.9em;
   transition:0.5s linear;
-}*/
+}
 .elvalaszto{
   text-align:center;
   font-weight:bold;
-  margin:3em;
-}/*
+}
 .kep{
   background-color:#aaa;
   width:100%;
